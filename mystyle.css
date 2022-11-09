@@ -1,0 +1,65 @@
+#site_body {
+
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    color:white;
+    margin-left: 18%;
+}
+
+p {
+    height: 30px;
+    width: 350px;
+    position: absolute;
+    margin-left: 72%;
+    margin-top: 30%;
+    
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 0.08em;
+}
+
+#reload {
+    height: 40px;
+    width: 130px;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 40%;
+    background-color: indigo;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 0.08em;
+}
+
+#reload:hover {
+    font-size: 95%;
+}
+
+.country {
+    fill:indigo;
+    stroke:blueviolet;
+    stroke-width: 0.5;
+}
+
+.towns{
+stroke-width: 1px;
+background-repeat: no-repeat;
+width: 25px;
+}
+
+
+.pointers{
+    fill: indigo;
+    opacity: 150%;
+    stroke: red;
+}
+
+.town_names{
+    fill:white;
+    font-size: 10px;
+}
